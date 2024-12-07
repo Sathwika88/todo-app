@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./todo.css">
+
+</head>
+
+<body>  
+    <div class="container">
+        <div class="text-img-div">
+            <div class="text">
+                <h3>Todo List</h3>
+            </div>
+            <div class="image"><img src="todo-img.png"></div>
+        </div>
+        <div class="main">
+            <input type="text" placeholder="Add a task" id="todo-input" autocomplete="off">
+            <button id="todo-button">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    <div class="wrapper">
+        <section>
+            <div class="container1">
+                <p>Tasks to be done</p>
+                <ul id="todo-list1">
+                    
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container2">
+                <p>Tasks Completed</p>
+                <ul id="todo-list2">
+                </ul>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- <script>
+        AOS.init();
+    </script> -->
+    <script src="todo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Yuji+Mai&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    background-color: #89A8B2;
+    width: 83%;
+    border-radius: 7px;
+    margin: 2em auto;
+}
+
+.text-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 90px;    */
+}
+
+img {
+    max-width: 100%;
+    height: 50px;
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    /*google font*/
+    /* font-family: "Yuji Mai", serif; */
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    /* background-color: lightcoral; */
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.main #todo-input {
+    font-size: 17px;
+    border-radius: 7px;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 7px;
+    width: 50%;
+    font-family: "Yuji Mai", serif;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.main #todo-input:focus {
+    outline: none;
+}
+
+.main #todo-button {
+    padding: 1em 1em;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.main #todo-button:hover {
+    background-color: #C1BAA1;
+}
+
+ul {
+    height: 300px;
+    overflow: auto;
+}
+
+ul li {
+    list-style: none;
+    width: 400px;
+    background-color: #B3C8CF;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* margin-bottom: 15px;
+    margin-left: 40px; */
+    margin: .7em auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+li:hover {
+    background-color: lightblue;
+}
+
+.done {
+    /* background-color: rgb(219, 68, 68); */
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+}
+
+.done:hover {
+    background: #F1F0E8;
+}
+
+.undo {
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: green;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+/*container1*/
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container1,
+.container2 {
+    width: 500px;
+    background-color: #89A8B2;
+    margin: 1em;
+    border-radius: 7px;
+    /* box-shadow: 0 0  10px 5px rgba(0,0,0,0.5); */
+}
+
+.container1>p,
+.container2>p {
+    text-align: center;
+    padding-top: 1em;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
